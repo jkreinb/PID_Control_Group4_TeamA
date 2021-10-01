@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jon/ACME_PID_WORKSPACE/cpp-boilerplate/app/main.cpp
+iostream
+-
+lib.hpp
+-
+
+/home/jon/ACME_PID_WORKSPACE/cpp-boilerplate/include/lib.hpp
+iostream
+-
+
